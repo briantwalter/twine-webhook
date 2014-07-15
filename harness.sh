@@ -14,7 +14,7 @@
 #
 
 APIKEY=$1
-APIEND=http://10.0.1.229:8008
+APIEND=http://localhost:8008
 CURL="/usr/bin/curl --data"
 TEMP=`echo $RANDOM | cut -c 1,2`
 ACEL=`shuf -e -n 1 shaking still`
