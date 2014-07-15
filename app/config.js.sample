@@ -1,0 +1,18 @@
+//
+// config.js  	Twine webhook app config file
+// version	0.0.1 
+// author	Brian Walter @briantwalter
+// description	Configuration
+//
+
+// main tree
+var config = {}
+// subtree
+config.app = {};
+// configurables
+config.app.port = 8008;
+config.app.auth = 'WEBHOOK_AUTH_TOKEN_HERE'; 
+config.app.apiend = 'http://dash.app.walternet.us/widgets/twine';
+config.app.apikey = 'DASHING_AUTH_TOKEN_HERE';  
+// export the vars
+module.exports = config;
